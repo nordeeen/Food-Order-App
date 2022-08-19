@@ -7,6 +7,7 @@ import Cart from "./components/Cart/Cart";
 const App = () => {
   const [cartIsShown, setCartIsShown] = useState(false);
 
+  // passing click antar component
   const showCartHandler = () => {
     setCartIsShown(true);
     console.log("succes click 1");
